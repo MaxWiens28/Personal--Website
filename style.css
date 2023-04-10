@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4{
+  font-family: monospace;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  height: 100px;
+  padding: 15px;
+  position: fixed;
+  text-align: center;
+  width:  100%;
+}
+
+.about {
+  background-color: rgb(37,53,81);
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  padding: 120px 50px 50px;
+}
+
+.about h1 {
+  font-size: 90px;
+}
+
+.about img {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.projects {
+  background-color: rgb(42,40,41);
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+
+}
+
+.projects h1 {
+  font-size: 300%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  width: 30%;
+  padding-top: 60px;
+}
+
+.project h2 {
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.project img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+footer {
+  background-color: rgb(42,40,41);
+  color: rgb(255, 255, 255);
+  font-size: 200%;
+  padding: 40px;
+}
+
+footer p{
+  padding: 15px 0px;
+}
+
+footer a {
+  color: rgb(255, 255, 255)  ;
+}
