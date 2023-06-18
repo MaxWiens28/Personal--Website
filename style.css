@@ -74,6 +74,10 @@ header {
   width: 85%;
 }
 
+a {
+  color: rgb(184, 184, 184);
+}
+
 footer {
   background-color: rgb(42,40,41);
   color: rgb(255, 255, 255);
